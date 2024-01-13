@@ -130,11 +130,11 @@
 
 ![front-end](./readme-assets/frontend-structure.png)
 
-> React 기반으로 기능별 page로 구성
-    - Poi: 무더위 쉼터와 한파 쉼터의 위치 및 시설 정보를 관심지점(point-of-interest)으로써 
-    - Weather: OpenWeatherMap API를 통해 행정구역의 현재 날씨, 기온, 습도 등
-    - Infographic : 지역별 쉼터의 필요성을 폭염, 기후 등으로 데이터로 나타난 인포그래픽 페이지.
-    - MyPage : 회원이 작성한 쉼터 리뷰와 리뷰 작성 개수별 등급을 확인할 수 있는 페이지.
+- React 기반으로 기능별로 page들을 구성
+    - Poi: 사용자가 선택한 행정구역에 있는 무더위 쉼터와 한파 쉼터들의 정보를 목록으로 표시하고 그 위치를 관심지점(point-of-interest)으로써 지도상에 마커로 표시
+    - Weather: OpenWeatherMap API를 활용해 해당 행정구역의 현재 날씨, 기온, 습도 등의 기상정보와 단기 예보를 위젯 형식으로 표시
+    - Infographic: 기후변화, 쉼터 분포, 친환경 관련 데이터들을 시각화해서 사용자에게 직관적으로 제공하는 인포그래픽
+    - MyPage: 사용자 계정 및 프로필 관리 페이지
 
 ### 백엔드
 
